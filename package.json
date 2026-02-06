@@ -2,19 +2,17 @@
   "name": "@openclaw/dimos",
   "version": "0.0.1",
   "description": "Exposes dimos MCP tools to the OpenClaw agent",
-  "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.28.2",
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.26.0",
-    "openclaw": "2026.2.3-1"
-  },
+  "type": "module",
+  "dependencies": {},
   "devDependencies": {
-    "tsx": "^4.21.0"
+    "openclaw": "workspace:*"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.1.26"
+  },
+  "openclaw": {
+    "extensions": [
+      "./index.ts"
+    ]
   }
 }

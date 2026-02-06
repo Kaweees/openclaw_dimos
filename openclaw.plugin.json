@@ -1,0 +1,10 @@
+{
+  "id": "dimos",
+  "name": "Dimos",
+  "description": "A hello world OpenClaw plugin.",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

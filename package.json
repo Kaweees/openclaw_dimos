@@ -4,9 +4,7 @@
   "description": "Exposes dimos MCP tools to the OpenClaw agent",
   "type": "module",
   "dependencies": {},
-  "devDependencies": {
-    "openclaw": "workspace:*"
-  },
+  "devDependencies": {},
   "peerDependencies": {
     "openclaw": ">=2026.1.26"
   },

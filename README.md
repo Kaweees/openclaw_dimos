@@ -14,7 +14,6 @@ In another terminal, run the following commands:
 
 ```bash
 pnpm install
-uv sync
 ```
 
 ```bash
@@ -26,10 +25,5 @@ pnpm openclaw gateway stop && pnpm openclaw gateway run --port 18789 --verbose g
 ```
 
 ```bash
-uv run python -m dimos.protocol.mcp
-```
-
-```bash
 pnpm openclaw agent --session-id dimos-test --message "move forward 10 meters"
 ```
-

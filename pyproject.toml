@@ -4,6 +4,8 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12,<3.13"
-dependencies = [
-    "dimos[base,unitree]>=0.0.9",
-]
+
+dependencies = ["dimos[base,unitree]>=0.0.9"]
+
+[tool.uv.sources]
+dimos = { git = "https://github.com/dimensionalOS/dimos/", branch = "dev" }
